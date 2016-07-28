@@ -1,0 +1,19 @@
+body {
+	background-color: #99ddff;
+}
+canvas {
+	position: relative;
+	left: 50%;
+	width: ;
+	transform: translateX(-50%);
+}
+h1 {
+	text-align: center;
+	animation: cycleThroughColors 2.5s infinite;
+}
+@keyframes cycleThroughColors {
+	0%, 100% {color: #00FFFF;}
+	25% {color: #8000FF;}
+	50% {color: #FF0000;}
+	75% {color: #80FF00;}
+}
