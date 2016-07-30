@@ -8,7 +8,14 @@
 </head>
 <body>
 	<h1>Doodle!</h1>
-	<div id="options"></div>
-	<canvas width="400px" height="400px" id="canvas"></canvas>
+	<div id="doodle-board">
+		<div id="options">
+			<p>Pen size<input type="number" value="10" min="1" id="size"></p>
+			<p>Color<input type="color" value="#000000" id="color"></p>
+			<p>Circle<input type="radio" name="shape" checked="checked"></p>
+			<p>Square<input type="radio" name="shape"></p>
+		</div>
+		<canvas width="1000px" height="525px" id="canvas"></canvas>
+	</div>
 </body>
 </html>
